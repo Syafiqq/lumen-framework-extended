@@ -29,6 +29,9 @@
     "autoload": {
         "psr-4": {
             "Syafiqq\\Lumen\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers/path.php"
+        ]
     }
 }
