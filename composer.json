@@ -1,0 +1,34 @@
+{
+    "name": "syafiqq/lumen-framework-extended",
+    "description": "The Laravel Lumen Framework Extended.",
+    "keywords": ["framework", "laravel", "lumen"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://lumen.laravel.com",
+    "support": {
+        "issues": "https://github.com/laravel/lumen-framework/issues",
+        "source": "https://github.com/laravel/lumen-framework"
+    },
+    "authors": [
+        {
+            "name": "Syafiqq",
+            "email": "syafiq.rezpector@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1.3",
+        "laravel/lumen-framework": "5.8.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Syafiqq\\Lumen\\": "src/"
+        }
+    }
+}
